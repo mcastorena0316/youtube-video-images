@@ -6,27 +6,39 @@ body {
 nav {
     width: 100%;
     display: flex;
+    align-items: center;
+
+}
+
+ .hamburger {
+    margin-left: 1.8rem;
+    font-size: 2rem;
+    color: grey;
+
 }
 
 #youtube_logo {
-    margin: 15px;
     width: 80px;
     height: 35px;
-    justify-content: flex-start;
+    width: 97px;
+    height: 66px;
+    margin-left: 1.2rem;
+   
 }
 
 #search {
     margin-left: auto;
-    width: 562px;
-    height: 24px;
-    margin-top: 15px;
+    height: 43px;
+    width: 744px;
+    font-size: 1.2rem
 }
 
 #button_search {
     margin-right: auto;
-    width: 65px;
-    height: 24px;
-    margin-top: 15px;
+    width: 72px;
+    height: 43px;
+    font-size: 1.3rem;
+    color: gray;
 }
 
 .search_icon {
@@ -39,19 +51,43 @@ nav img {
     margin: 15px 10px;
 }
 
+.text-info {
+    width:96%;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2.6rem;
+    width:216px;
+}
+
+.session {
+    border-radius: 50% ;
+    background-color:green;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
 #container {
     display: flex;
     width: 100%;
+    background-color: #f7f4f4d7;
 }
 
 #video {
     display: flex;
-    width: 70%;
+    width: 55%;
     flex-direction: column;
+    margin-left: 11rem;
 }
 
 #video iframe {
-    width: 100%
+    width: 96%;
+
 }
 
 #recommendations {
@@ -59,27 +95,63 @@ nav img {
     width: 30%;
 }
 
-#icons1,
-#icons2 {
+#icons1 {
     display: flex;
-    width: 100%
+    width: 100%;
+    justify-content: space-between;
 }
 
 #views {
-    margin-left: auto;
     margin-right: 5px;
     color: gray;
     font-family: Arial, Helvetica, sans-serif
 }
 
+.views-likes {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 1.2rem
+}
+
+#video h4{
+    margin-bottom: 0
+}
+
+.thumbs {
+    display: flex;
+    align-items: center;
+    width: 186px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.icons2 button{
+    border-radius: 5px;
+    padding: .8rem;
+    font-size: 1rem;
+    font-weight: bold
+
+}
+
+
 #subscribe {
-    width: 75px;
-    height: 22px;
-    margin-top: 20px;
-    margin-left: 5px;
     background-color: rgb(255, 0, 0);
     color: white;
-    border-radius: 5px;
+    border: none;
+    padding: .8rem;
+    width: 143px;
+}
+
+.join {
+    font-size: 1rem;
+    border: 1px solid #318ce0d7;
+    background-color: white;
+    width: 94px;
+    color: #318ce0d7;
+    margin-right: 1rem;
 }
 
 #icons1 i {
@@ -87,35 +159,22 @@ nav img {
     margin-left: 5px;
 }
 
-#icons2 button {
-    margin-right: auto;
-    width: 55px;
-    height: 28px;
-    margin-left: 5px
-}
-
 #icons2 {
     height: 30px;
 }
 
-#icons2 h5 {
-    margin: 0 5px 5px;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-#icons2 i {
-    color: gray;
-}
-
 .rec-img {
-    width: 168px;
-    height: 94px;
+    width: 171px;
+    height: 110px;
+    padding-right: 8px
 }
 
 .div-rec {
     display: flex;
     margin: 15px 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+
 }
 
 .title-views {

@@ -12,33 +12,44 @@
 
 <body>
     <nav>
+        <i class="fa fa-bars hamburger"></i>
         <img id="youtube_logo" src="https://cdn.iconscout.com/icon/free/png-256/youtube-86-226404.png" alt="Youtube logo">
 
         <input id="search" type="search" placeholder="Search">
-        <button id="button_search">Search</button>
-
-        <img src="https://image.flaticon.com/icons/png/128/149/149301.png " alt="bell icon">
-        <img src="https://image.flaticon.com/icons/png/128/66/66846.png" alt="video camera">
-        <img src="https://cdn4.iconfinder.com/data/icons/real-estate-line-1-1/256/Account_Circle_512x512-128.png " alt="profile avatar">
+        <button id="button_search"><i class="fa fa-search"></i></button>
+        <div class= "icons-container">
+            <img src="https://image.flaticon.com/icons/png/128/149/149301.png " alt="bell icon">
+            <img src="https://image.flaticon.com/icons/png/128/66/66846.png" alt="video camera">
+            <img src="https://cdn4.iconfinder.com/data/icons/real-estate-line-1-1/256/Account_Circle_512x512-128.png " alt="profile avatar">
+            <p class= "session">M</p>
+        </div>
     </nav>
     <main id="container">
         <section id="video">
 
-            <iframe height="450" src="https://www.youtube.com/embed/zUwEIt9ez7M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe height="450" src="https://www.youtube.com/embed/zUwEIt9ez7M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class= "text-info">  
             <h2>Deep Purple - Smoke on the Water</h2>
-            <div id="icons1">
-                <i class="fa fa-user-circle"></i>
-                <button id="subscribe">Subscribe</button>
-                <h4 id="views">93,132,973 views</h4>
-            </div>
-            <div id="icons2">
-                <button>Share</button>
+            <div class="views-likes">
+              <h4 id="views">93,132,973 views</h4>
+              <div class= "thumbs">
                 <i class="fa fa-thumbs-up"></i>
                 <h5>1,254,214 </h5>
                 <i class="fa fa-thumbs-down"></i>
                 <h5>358,478</h5>
-
+              </div> 
             </div>
+            <div id="icons1">
+              <i class="fa fa-user-circle"></i>
+              <div class="icons2">
+              <button class="join">JOIN</button>
+              <button id="subscribe">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          
+               
+  
         </section>
 
         <section id="recommendations">
